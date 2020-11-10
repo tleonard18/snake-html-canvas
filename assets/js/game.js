@@ -34,9 +34,9 @@ function Game() {
     this.scoreValue = $("#scoreValue");
 
     /*** Sons ***/
-    this.audioEat = new Audio('../assets/sounds/eat.mp3'); // Son du serpent en train de manger
-    this.audioGame = new Audio('../assets/sounds/game.mp3'); // Son pendant une partie
-    this.audioGameOver = new Audio('../assets/sounds/game-over.mp3'); // Son partie perdue
+    this.audioEat = new Audio('./assets/sounds/eat.mp3'); // Son du serpent en train de manger
+    this.audioGame = new Audio('./assets/sounds/game.mp3'); // Son pendant une partie
+    this.audioGameOver = new Audio('./assets/sounds/game-over.mp3'); // Son partie perdue
 
     /*** Propriétés ***/
     this.score = 0; // Score du joueur
