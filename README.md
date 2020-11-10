@@ -20,3 +20,9 @@ Depuis le code source :
 * Sauvegarde des 3 meilleures scores
 * Ajouter un mode 2 joueurs sur le même ordinateur (avec d'autres touches pour le 2e joueur, par exemple : Z, Q, S et D)
 * Ajouter un mode 2 joueurs sur 2 ordinateurs différents (socket.io)
+
+### Captures d'écran
+
+![Capture d'écran n°1](https://github.com/tleonard18/snake-html-canvas/blob/main/assets/screenshots/screenshot-1.jpg?raw=true)
+![Capture d'écran n°2](https://github.com/tleonard18/snake-html-canvas/blob/main/assets/screenshots/screenshot-2.jpg?raw=true)
+![Capture d'écran n°3](https://github.com/tleonard18/snake-html-canvas/blob/main/assets/screenshots/screenshot-3.jpg?raw=true)
