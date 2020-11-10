@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    color:#FFFFFF;
+    background:transparent;
+}
+
+::-moz-selection {
+    color:#FFFFFF;
+    background:transparent;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #5ca1c5;
+}
+
+body, input, select, button, textarea{
+    font-family: 'Goldman', cursive;
+}
+
+canvas:focus{
+    outline: none;
+}
+
+.game-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+}
+
+.header .title{
+    color: #000000;
+    font-size: 32px;
+}
+
+.header .score{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.game-canvas{
+    display: none;
+    border: 2px solid #ffffff;
+}
+
+.menu{
+    display: block;
+    text-align: center;
+}
+
+.menu .title{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.menu .btn{
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0 none;
+    text-align: center;
+    outline: 0;
+}
+
+.menu .btn:hover::before{
+    content: ">";
+    margin-right: 10px;
+}
+
+.game-over{
+    display: none;
+    text-align: center;
+}
+
+.game-over .title{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.game-over .text{
+    margin-top: 25px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.game-over .text span{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 3px 8px;
+}
